@@ -1,0 +1,89 @@
+.filters {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: var(--nasa-gap-xs);
+}
+
+.filter-query {
+  background: transparent;
+  width: 17%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--nasa-color-2);
+  padding: 5px 5px;
+  padding-top: var(--nasa-padding-xs);
+  color: var(--nasa-color-2);
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.filter-query::placeholder {
+  color: var(--nasa-color-2);
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.filter-label {
+  font-size: 1.5rem;
+  color: var(--nasa-color-1);
+}
+
+@media (max-width: 1390px) {
+  .filter-query {
+    width: 25%;
+  }
+}
+
+@media (max-width: 970px) {
+  .filter-query {
+    width: 28%;
+  }
+}
+
+@media (max-width: 840px) {
+  .filter-query {
+    width: 34%;
+  }
+}
+
+@media (max-width: 700px) {
+  .filters {
+    flex-direction: column;
+    gap: var(--nasa-gap-s);
+  }
+  .filter-query {
+    width: 50%;
+    padding: 10px 4px;
+  }
+}
+
+@media (max-width: 470px) {
+  .filter-query {
+    width: 70%;
+  }
+}
+
+@media (max-width: 420px) {
+  .filter-label {
+    font-size: 1.4rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  .filter-query {
+    font-size: 1.4rem;
+  }
+  .filter-query::placeholder {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .filter-query {
+    width: 75%;
+  }
+}

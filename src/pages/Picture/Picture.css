@@ -1,0 +1,83 @@
+#picture {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--nasa-gap-xl);
+  padding-top: var(--nasa-padding-m);
+  padding-bottom: var(--nasa-padding-l);
+}
+
+.picture-h1 {
+  color: var(--nasa-color-1);
+  font-size: 2.5rem;
+}
+
+.img-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-of-the-day {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid var(--nasa-color-3);
+  border-radius: 4px;
+}
+
+.data-picture {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: var(--nasa-gap-m);
+  color: var(--nasa-color-1);
+}
+
+.data-picture > h2 {
+  font-size: 1.8rem;
+}
+
+.data-picture > p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 500px) {
+  .picture-of-the-day {
+    width: 84%;
+  }
+  .data-picture {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .data-picture > p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .picture-h1 {
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .picture-h1 {
+    font-size: 1.8rem;
+  }
+  .data-picture > h2 {
+    font-size: 1.4rem;
+  }
+
+  .data-picture > p {
+    font-size: 1rem;
+  }
+}

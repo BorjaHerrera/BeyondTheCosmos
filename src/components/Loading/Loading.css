@@ -1,0 +1,6 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  color: var(--nasa-color-1);
+  font-size: 1.4rem;
+}

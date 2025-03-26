@@ -1,0 +1,77 @@
+#header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: var(--nasa-padding-xxxl);
+}
+
+#header ul {
+  display: flex;
+  gap: var(--nasa-gap-xl);
+}
+
+#header a {
+  font-size: 1.1rem;
+  color: var(--nasa-color-1);
+  padding: 10px 20px;
+  background-color: var(--nasa-color-3);
+  border-radius: 6px;
+  border: 1px solid var(--nasa-color-3);
+  cursor: pointer;
+}
+
+#header a:hover {
+  transform: scale(1.1);
+  background-color: var(--nasa-color-2);
+  border: 1px solid var(--nasa-color-3);
+}
+
+@media (max-width: 1125px) {
+  #header {
+    padding-top: var(--nasa-padding-xxl);
+  }
+}
+
+@media (max-width: 965px) {
+  #header a {
+    font-size: 1rem;
+  }
+  #header {
+    padding-top: var(--nasa-padding-xxxl);
+  }
+}
+
+@media (max-width: 660px) {
+  #header {
+    padding-top: var(--nasa-padding-xxl);
+  }
+  #header ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header a {
+    font-size: 1.1rem;
+    padding: 10px 80px;
+  }
+}
+
+@media (max-width: 423px) {
+  #header a {
+    font-size: 1rem;
+    padding: 10px 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  #header {
+    padding-top: var(--nasa-padding-xl);
+  }
+}
+
+@media (max-width: 329px) {
+  #header a {
+    padding: 10px 50px;
+  }
+}

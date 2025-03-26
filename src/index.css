@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+:root {
+  /* BRANDING COLORS */
+
+  --nasa-color-1: #efecf3;
+  --nasa-color-2: #d61685;
+  --nasa-color-3: #870b53;
+  --nasa-color-4: #4e3e70;
+  /* FONTS */
+  --nasa-primary-font: 'Rajdhani', sans-serif;
+  --nasa-secondary-font: 'Roboto Flex', sans-serif;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--nasa-primary-font);
+  }
+
+  body,
+  p,
+  span,
+  a {
+    font-family: var(--nasa-secondary-font);
+  }
+
+  /* SPACINGS */
+  --nasa-margin-xxs: 5px;
+  --nasa-margin-xs: 10px;
+  --nasa-margin-s: 20px;
+  --nasa-margin-m: 30px;
+  --nasa-margin-l: 40px;
+  --nasa-margin-xl: 50px;
+  --nasa-margin-xxl: 100px;
+  --nasa-margin-xxxl: 150px;
+  --nasa-margin-xxxxl: 180px;
+
+  --nasa-padding-xxs: 5px;
+  --nasa-padding-xs: 10px;
+  --nasa-padding-s: 20px;
+  --nasa-padding-m: 30px;
+  --nasa-padding-l: 40px;
+  --nasa-padding-xl: 60px;
+  --nasa-padding-xxl: 100px;
+  --nasa-padding-xxxl: 150px;
+
+  --nasa-gap-xxs: 5px;
+  --nasa-gap-xs: 10px;
+  --nasa-gap-s: 20px;
+  --nasa-gap-m: 30px;
+  --nasa-gap-l: 40px;
+  --nasa-gap-xl: 50px;
+  --nasa-gap-xxl: 100px;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--nasa-secondary-font);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  min-height: 100svh;
+}

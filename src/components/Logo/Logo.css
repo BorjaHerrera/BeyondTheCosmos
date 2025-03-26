@@ -1,0 +1,28 @@
+.logo-container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  margin-top: var(--nasa-margin-xxl);
+  margin-bottom: var(--nasa-margin-xl);
+  width: 80px;
+  height: 80px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 965px) {
+  .logo-container {
+    margin-top: var(--nasa-margin-xl);
+    margin-bottom: var(--nasa-margin-xl);
+  }
+}
+
+@media (max-width: 479px) {
+  .logo-container {
+    margin-bottom: var(--nasa-margin-m);
+  }
+}

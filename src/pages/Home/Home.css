@@ -1,0 +1,123 @@
+#home {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--nasa-gap-xl);
+  padding-top: var(--nasa-padding-m);
+}
+
+#home > h1 {
+  color: var(--nasa-color-1);
+  font-size: 2.5rem;
+}
+#home > p {
+  font-size: 1.5rem;
+  padding-top: var(--nasa-padding-m);
+  padding-left: 25%;
+  padding-right: 25%;
+  color: var(--nasa-color-1);
+  text-align: center;
+  line-height: 1.6;
+}
+
+@media (max-width: 1350px) {
+  #home > p {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media (max-width: 1125px) {
+  #home > p {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media (max-width: 965px) {
+  #home > h1 {
+    font-size: 2.2rem;
+  }
+  #home > p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  #home > p {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: var(--nasa-padding-s);
+  }
+}
+
+@media (max-width: 850px) {
+  #home > p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 750px) {
+  #home > h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  #home > h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 560px) {
+  #home > h1 {
+    font-size: 2.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+  }
+
+  #home > p {
+    font-size: 1.2rem;
+    padding-top: var(--nasa-padding-xxs);
+  }
+}
+
+@media (max-width: 479px) {
+  #home > h1 {
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width: 423px) {
+  #home > h1 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  #home > p {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+@media (max-width: 400px) {
+  #home > h1 {
+    font-size: 1.8rem;
+  }
+  #home > p {
+    font-size: 1rem;
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  #home > p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 329px) {
+  #home > h1 {
+    font-size: 1.6rem;
+  }
+}

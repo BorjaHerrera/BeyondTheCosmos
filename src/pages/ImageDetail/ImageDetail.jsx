@@ -37,7 +37,7 @@ export const ImageDetail = () => {
 
   return (
     <section id='image-detail'>
-      <h1 className=''>EVERY IMAGE TELLS A STORY</h1>
+      <h1 className>EVERY IMAGE TELLS A STORY</h1>
       <div className='img-detail-container'>
         <img
           className='detail-picture'
